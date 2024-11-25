@@ -11,7 +11,7 @@ This guide will provide the instructions to setup test automation for a web appl
 Setup `web-automation-framework-template` by cloning from github repository.
 
 ```
-git clone git@github.com:Qbitum/Web-Automation-Framework-Template.git
+git clone https://github.com/Qbitum/Web-Automation-Framework-Template.git
 ```
 ### Step 02:
 Open package.json file and edit name, version, description, author, keywords and developer dependencies according to your project.
