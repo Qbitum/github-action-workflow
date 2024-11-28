@@ -48,6 +48,7 @@ cypress/report
 HTMLSummary
 cypress/screenshots
 .idea
+config/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/

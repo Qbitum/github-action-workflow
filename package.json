@@ -1,9 +1,10 @@
 {
-  "name": "project-template",
+  "name": "sample-project-2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test automation project sample",
   "main": "index.js",
   "scripts": {
+    "cy:run": "cypress run",
     "cy:open": "cypress open",
     "push:google": "node ./cypress/scripts/google_notification.js",
     "report:open": "allure serve ./allure-results",
@@ -16,19 +17,22 @@
     "qbitum",
     "automation",
     "testing",
-    "cypress"
+    "cypress",
+    "sample-project-2"
   ],
-  "author": "",
+  "author": "Naveendra",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.2.2",
     "@cypress/grep": "^4.0.1",
     "@faker-js/faker": "^8.4.1",
     "@mmisty/cypress-allure-adapter": "^0.16.2",
     "@qbitum/qtaf-google-notification": "^1.0.0",
+    "@qbitum/qtaf-service-core": "^1.0.0",
+    "@qbitum/qtaf-ui-core": "^1.0.0",
     "@types/uuid": "^10.0.0",
     "allure-commandline": "^2.24.1",
     "allure-service-client": "^1.0.2",
+    "archiver": "^7.0.1",
     "cypress": "^13.5.1",
     "cypress-file-upload": "^5.0.8",
     "cypress-multi-reporters": "^1.6.1",
@@ -40,10 +44,8 @@
     "mochawesome-merge": "^4.3.0",
     "mochawesome-report-generator": "^6.2.0",
     "qtaf-makeit-client": "file:qtaf-makeit-client",
+    "typescript": "^5.2.2",
     "uuid": "^10.0.0",
-    "xlsx": "^0.18.5",
-    "@qbitum/qtaf-ui-core": "^1.0.0",
-    "@qbitum/qtaf-service-core": "^1.0.0"
+    "xlsx": "^0.18.5"
   }
-  
 }
