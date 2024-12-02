@@ -1,4 +1,4 @@
-/*/// <reference types="cypress" />
+/// <reference types="cypress" />
 
 /// JSON fixture file can be loaded directly using
 // the built-in JavaScript bundler
@@ -63,4 +63,4 @@ context('Files', () => {
       expect(profile.name).to.eq('Jane')
     })
   })
-})*/
+})

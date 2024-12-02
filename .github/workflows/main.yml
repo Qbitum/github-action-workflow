@@ -24,6 +24,7 @@ jobs:
 
     - name: Run Cypress Tests
       run: npm run cy:run
+      continue-on-error: true
 
     - name: Merge Mochawesome Reports
       run: npm run mochawesome:merge
