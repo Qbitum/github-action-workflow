@@ -18,7 +18,7 @@ describe("Login page verification", () => {
     })
 
     it("Password placeholder text validation", () => {
-        login.password_placeholder_validation("Pass")
+        login.password_placeholder_validation("Passw")
     })
 
     it("Username placeholder text validation", () => {
