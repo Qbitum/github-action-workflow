@@ -31,7 +31,7 @@ const uploadResults = async () => {
     await compressResults();
 
     const options = {
-      project: "github-action-workflow",
+      project: "project 1",
       resultsFolder: folderPath,
       cleanupFilesAfterUpload: false,
       host: "http://34.173.128.142:5050",

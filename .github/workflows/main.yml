@@ -34,3 +34,6 @@ jobs:
 
     - name: Publish Allure Report
       run: npm run allure:publish
+
+    - name: Push Google Notification
+      run: npm run push:google
