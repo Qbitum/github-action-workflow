@@ -31,7 +31,7 @@ const uploadResults = async () => {
     await compressResults();
 
     const options = {
-      project: "project-2",
+      project: "project-4",
       resultsFolder: folderPath,
       cleanupFilesAfterUpload: false,
       host: "http://34.173.128.142:5050",
